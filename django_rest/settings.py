@@ -56,7 +56,7 @@ REST_AUTH = {
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.getenv('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY')
 # 'django-insecure-g49b+o^*z_f93$yb#rd!iexyhef+kk-e&e92&t!ezc@(_w2$45'
 
 # SECURITY WARNING: don't run with debug turned on in production!
