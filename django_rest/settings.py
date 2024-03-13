@@ -62,7 +62,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['8000-almabroman-djangorest-hy8knb2uvax.ws-eu110.gitpod.io','django-react-test.herokuapp.com']
+ALLOWED_HOSTS = ['8000-almabroman-djangorest-hy8knb2uvax.ws-eu110.gitpod.io','django-react-test-e8f863c4eb7b.herokuapp.com']
 
 
 # Application definition
